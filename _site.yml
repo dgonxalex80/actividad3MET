@@ -2,7 +2,6 @@ name: " "
 output_dir: "docs"
 navbar:
   title: " "
-
 output:
   html_document:
     css: style.css

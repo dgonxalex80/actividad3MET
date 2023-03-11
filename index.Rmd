@@ -87,7 +87,16 @@ El informe se debe entregar en formato pdf en la plataforma Bs . Adjunte los ane
 
 </br></br>
 
-<div class="content-box-yellow">
+<div class="content-box-gray">
+
+
+### **Datos**
+
+```{r, eval=FALSE}
+library(paqueteMET)
+data(vivienda4)
+```
+
 
 ### **Entregable**  
 
