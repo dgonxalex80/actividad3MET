@@ -1,0 +1,96 @@
+---
+title: <span style="color:#034a94"> **Actividad 3**</span>
+output:
+html_document:
+css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+library(summarytools)
+
+
+c1 ="#FF7F00"  # naranja - color primario 
+c2 ="#034A94"  # azul oscuro - color secundario
+c3 ="#0EB0C6"  # azul claro - color terciario
+c4 ="#686868"  # gris - color texto
+```
+
+</br></br>
+
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("img/vivienda.png")
+```
+  <font size="2">Tomada de : pixabay.com </font>
+
+</br></br>
+
+# <span style="color:#034a94"> **Problema**</span>
+
+</br>
+
+
+
+
+
+Con base en los datos de ofertas de vivienda descargadas del portal Fincaraiz  para apartamento de estrato 4 con área construida menor a 200 $m^2$ (*vivienda4.RDS*) la  inmobiliaria **A&C**  requiere el apoyo en la construcción de un modelo que lo oriente sobre los precios de inmuebles. 
+
+Con este propósito el equipo de asesores a diseñado los siguientes pasos para obtener un modelo y así poder a futuro determinar los precios de los inmuebles a negociar
+
+</br>
+
+1. Realice un análisis exploratorio de las variables precio de vivienda (millones de pesos COP) y área de la vivienda (metros cuadrados) - incluir gráficos e indicadores apropiados interpretados.
+
+</br>
+
+2. Realice un análisis exploratorio bivariado de datos enfocado en la relación entre la variable respuesta (precio) en función de la variable predictora (area construida) - incluir gráficos e indicadores apropiados interpretados.
+
+</br>
+
+3. Estime el modelo de regresión lineal simple entre $precio = f(area)+ \varepsilon$. Interprete los coeficientes del modelo $\beta_{0}$, $\beta_{1}$ en caso de ser correcto.
+
+</br>
+
+4. Construir un intervalo de confianza (95%) para el coeficiente$\beta_{1}$, interpretar y concluir si el coeficiente es igual a cero o no. Compare este resultado con una
+prueba de hipótesis t. 
+
+</br>
+
+5. Calcule e interprete el indicador de bondad y ajuste $R^2$.
+
+</br>
+
+6. ¿Cuál sería el precio promedio estimado para un apartamento de $110$ metros cuadrados? Considera entonces con este resultado que un apartamento en la misma zona con $110$ metros cuadrados en un precio de $200$ millones sería una atractiva esta oferta? ¿Qué consideraciones adicionales se deben tener?.
+
+</br>
+
+7. Realice la validación de supuestos del modelo por medio de gráficos apropiados, interpretarlos y sugerir posibles soluciones si se violan algunos de ellos. Utilice las pruebas de hipótesis para la validación de supuestos y compare los resultados con lo observado en los gráficos asociados.
+
+</br>
+
+8. De ser necesario realice una transformación apropiada para mejorar el ajuste y supuestos del modelo.
+
+</br>
+
+9. De ser necesario compare el ajuste y supuestos del modelo inicial y el transformado.
+
+</br>
+
+10. Estime varios modelos y compare los resultados obtenidos. En el mejor de los modelos, ¿se cumplen los supuestos sobre los errores?
+
+
+11. Con los resultados obtenidos construya un informe para los directivos de la inmobiliaria
+
+</br></br>
+
+El informe se debe entregar en formato pdf en la plataforma Bs . Adjunte los anexos que respalden el informe .
+
+</br></br>
+
+<div class="content-box-yellow">
+
+### **Entregable**  
+
+informe, mas anexos **actividad3.pdf**
+
+</div>
