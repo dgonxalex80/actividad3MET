@@ -29,11 +29,9 @@ knitr::include_graphics("img/vivienda.png")
 
 </br>
 
+Con base en los datos de ofertas de vivienda descargadas del portal Fincaraiz  para apartamento de estrato 4 con área construida menor a 200 $m^2$ (*vivienda4.RDS*) la  inmobiliaria **A&C**  requiere el apoyo de un cientifico de datos en la construcción de un modelo que lo oriente sobre los precios de inmuebles. 
 
-
-
-
-Con base en los datos de ofertas de vivienda descargadas del portal Fincaraiz  para apartamento de estrato 4 con área construida menor a 200 $m^2$ (*vivienda4.RDS*) la  inmobiliaria **A&C**  requiere el apoyo en la construcción de un modelo que lo oriente sobre los precios de inmuebles. 
+</br>
 
 Con este propósito el equipo de asesores a diseñado los siguientes pasos para obtener un modelo y así poder a futuro determinar los precios de los inmuebles a negociar
 
@@ -43,7 +41,7 @@ Con este propósito el equipo de asesores a diseñado los siguientes pasos para 
 
 </br>
 
-2. Realice un análisis exploratorio bivariado de datos enfocado en la relación entre la variable respuesta (precio) en función de la variable predictora (area construida) - incluir gráficos e indicadores apropiados interpretados.
+2. Realice un análisis exploratorio bivariado de datos, enfocado en la relación entre la variable respuesta (precio) en función de la variable predictora (area construida) - incluir gráficos e indicadores apropiados interpretados.
 
 </br>
 
@@ -78,6 +76,7 @@ prueba de hipótesis t.
 
 10. Estime varios modelos y compare los resultados obtenidos. En el mejor de los modelos, ¿se cumplen los supuestos sobre los errores?
 
+</br>
 
 11. Con los resultados obtenidos construya un informe para los directivos de la inmobiliaria
 
