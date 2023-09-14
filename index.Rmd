@@ -45,16 +45,16 @@ Con este propósito el equipo de asesores a diseñado los siguientes pasos para 
 
 </br>
 
-3. Estime el modelo de regresión lineal simple entre $precio = f(area)+ \varepsilon$. Interprete los coeficientes del modelo $\beta_{0}$, $\beta_{1}$ en caso de ser correcto.
+3. Estime el modelo de regresión lineal simple entre <span style="color:#034a94">$\hspace{.5cm}precio = f(area)+ \varepsilon \hspace{.2cm}$</span>. Interprete los coeficientes del modelo $\beta_{0}$, $\beta_{1}$ en caso de ser correcto.
 
 </br>
 
-4. Construir un intervalo de confianza (95%) para el coeficiente$\beta_{1}$, interpretar y concluir si el coeficiente es igual a cero o no. Compare este resultado con una
+4. Construir un intervalo de confianza (95%) para el coeficiente $\beta_{1}$, interpretar y concluir si el coeficiente es igual a cero o no. Compare este resultado con una
 prueba de hipótesis t. 
 
 </br>
 
-5. Calcule e interprete el indicador de bondad y ajuste $R^2$.
+5. Calcule e interprete el indicador de bondad $R^2$.
 
 </br>
 
@@ -62,7 +62,7 @@ prueba de hipótesis t.
 
 </br>
 
-7. Realice la validación de supuestos del modelo por medio de gráficos apropiados, interpretarlos y sugerir posibles soluciones si se violan algunos de ellos. Utilice las pruebas de hipótesis para la validación de supuestos y compare los resultados con lo observado en los gráficos asociados.
+7. Realice la validación de los supuestos del modelo por medio de gráficos apropiados, interpretarlos y sugerir posibles soluciones si se violan algunos de ellos. Utilice las pruebas de hipótesis para la validación de supuestos y compare los resultados con lo observado en los gráficos asociados.
 
 </br>
 
@@ -78,7 +78,7 @@ prueba de hipótesis t.
 
 </br>
 
-11. Con los resultados obtenidos construya un informe para los directivos de la inmobiliaria
+11. Con los resultados obtenidos construya un informe para los directivos de la inmobiliaria, indicando el modelo apropiado y sus principales características. A este informe se deben añadir los anexos como evidencia de la realización de los pasos anteriores.
 
 </br></br>
 
@@ -94,10 +94,13 @@ El informe se debe entregar en formato pdf en la plataforma Bs . Adjunte los ane
 
 #### **Importación de datos**
 
-```{r, eval=FALSE, message=FALSE, warning=FALSE}
-library(paqueteMET)
+<div class="content-box-gray">
+install.packages("devtools") # solo una vez
+devtools::install_github("dgonxalex80/paqueteMETODOS") 
+library(paqueteMETODOS)
 data(vivienda4)
-```
+</div>
+
 </br>
 
 #### **Entregable**  

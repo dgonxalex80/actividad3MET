@@ -295,21 +295,22 @@ interpretados.</li>
 <p></br></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Estime el modelo de regresión lineal simple entre <span
-class="math inline">\(precio = f(area)+ \varepsilon\)</span>. Interprete
-los coeficientes del modelo <span
-class="math inline">\(\beta_{0}\)</span>, <span
-class="math inline">\(\beta_{1}\)</span> en caso de ser correcto.</li>
+style="color:#034a94"><span class="math inline">\(\hspace{.5cm}precio =
+f(area)+ \varepsilon \hspace{.2cm}\)</span></span>. Interprete los
+coeficientes del modelo <span class="math inline">\(\beta_{0}\)</span>,
+<span class="math inline">\(\beta_{1}\)</span> en caso de ser
+correcto.</li>
 </ol>
 <p></br></p>
 <ol start="4" style="list-style-type: decimal">
-<li>Construir un intervalo de confianza (95%) para el coeficiente<span
+<li>Construir un intervalo de confianza (95%) para el coeficiente <span
 class="math inline">\(\beta_{1}\)</span>, interpretar y concluir si el
 coeficiente es igual a cero o no. Compare este resultado con una prueba
 de hipótesis t.</li>
 </ol>
 <p></br></p>
 <ol start="5" style="list-style-type: decimal">
-<li>Calcule e interprete el indicador de bondad y ajuste <span
+<li>Calcule e interprete el indicador de bondad <span
 class="math inline">\(R^2\)</span>.</li>
 </ol>
 <p></br></p>
@@ -323,11 +324,11 @@ esta oferta? ¿Qué consideraciones adicionales se deben tener?.</li>
 </ol>
 <p></br></p>
 <ol start="7" style="list-style-type: decimal">
-<li>Realice la validación de supuestos del modelo por medio de gráficos
-apropiados, interpretarlos y sugerir posibles soluciones si se violan
-algunos de ellos. Utilice las pruebas de hipótesis para la validación de
-supuestos y compare los resultados con lo observado en los gráficos
-asociados.</li>
+<li>Realice la validación de los supuestos del modelo por medio de
+gráficos apropiados, interpretarlos y sugerir posibles soluciones si se
+violan algunos de ellos. Utilice las pruebas de hipótesis para la
+validación de supuestos y compare los resultados con lo observado en los
+gráficos asociados.</li>
 </ol>
 <p></br></p>
 <ol start="8" style="list-style-type: decimal">
@@ -347,7 +348,9 @@ mejor de los modelos, ¿se cumplen los supuestos sobre los errores?</li>
 <p></br></p>
 <ol start="11" style="list-style-type: decimal">
 <li>Con los resultados obtenidos construya un informe para los
-directivos de la inmobiliaria</li>
+directivos de la inmobiliaria, indicando el modelo apropiado y sus
+principales características. A este informe se deben añadir los anexos
+como evidencia de la realización de los pasos anteriores.</li>
 </ol>
 <p></br></br></p>
 <p>El informe se debe entregar en formato pdf en la plataforma Bs .
@@ -358,8 +361,11 @@ Adjunte los anexos que respalden el informe .</p>
 <p></br></p>
 <div id="importación-de-datos" class="section level4">
 <h4><strong>Importación de datos</strong></h4>
-<pre class="r"><code>library(paqueteMET)
-data(vivienda4)</code></pre>
+<div class="content-box-gray">
+<p>install.packages(“devtools”) # solo una vez
+devtools::install_github(“dgonxalex80/paqueteMETODOS”)
+library(paqueteMETODOS) data(vivienda4)</p>
+</div>
 <p></br></p>
 </div>
 <div id="entregable" class="section level4">
