@@ -95,10 +95,15 @@ El informe se debe entregar en formato pdf en la plataforma Bs . Adjunte los ane
 #### **Importación de datos**
 
 <div class="content-box-gray">
+
 install.packages("devtools") # solo una vez
+
 devtools::install_github("dgonxalex80/paqueteMETODOS") 
+
 library(paqueteMETODOS)
+
 data(vivienda4)
+
 </div>
 
 </br>
