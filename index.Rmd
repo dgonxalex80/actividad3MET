@@ -41,7 +41,7 @@ Con este propósito el equipo de asesores a diseñado los siguientes pasos para 
 
 </br>
 
-2. Realice un análisis exploratorio bivariado de datos, enfocado en la relación entre la variable respuesta (precio) en función de la variable predictora (area construida) - incluir gráficos e indicadores apropiados interpretados.
+2. Realice un análisis exploratorio bivariado de datos, enfocado en la relación entre la variable respuesta (precio) en función de la variable predictora (área construida) - incluir gráficos e indicadores apropiados interpretados.
 
 </br>
 
@@ -86,30 +86,27 @@ El informe se debe entregar en formato pdf en la plataforma Bs . Adjunte los ane
 
 </br></br>
 
-<div class="content-box-gray">
 
-### **Nota**
+
+### **NOTA**
 
 </br>
 
-#### **Importación de datos**
+### **Importación de datos**
 
-<div class="content-box-gray">
+<pre>
 
 install.packages("devtools") # solo una vez
-
 devtools::install_github("dgonxalex80/paqueteMETODOS") 
-
 library(paqueteMETODOS)
-
 data(vivienda4)
 
-</div>
+</pre>
 
 </br>
 
-#### **Entregable**  
+### **Entregable**  
 
 informe, mas anexos **actividad3.pdf**
 
-</div>
+
